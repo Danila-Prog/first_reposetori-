@@ -1,4 +1,4 @@
-@import 'variablde.scss';
+@import '../variables.scss';
 
 *{
     margin: 0;
@@ -138,26 +138,26 @@ main{
             width: $one-section-width;
             height: $one-section-height;
             margin-left: 80px;
-            background-color: $one-section-background;
+            background-color: $grey-background;
             
         }
         .two-block{
             width: $one-section-width;
             height: $one-section-height;
             margin-left: 22px;
-            background-color: $one-section-background;
+            background-color: $grey-background;
         }
         .three-block{
             width: $one-section-width;
             height: $one-section-height;
             margin-left: 18px;
-            background-color: $one-section-background;
+            background-color: $grey-background;
         }
         .four-block{
             width: $one-section-width;
             height: $one-section-height;
             margin-left: 20px;
-            background-color: $one-section-background;
+            background-color: $grey-background;
         }
     }
 }

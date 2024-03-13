@@ -1,4 +1,4 @@
-@import 'variables.scss';
+@import '../variables.scss';
 
 * {
     padding: 0;
@@ -35,7 +35,7 @@ body {
     h2 {
         font-family: $poppins-font;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: $font-Weight-300;
         line-height: 19px;
     }
 }
@@ -64,7 +64,7 @@ header {
                 margin-right: 44px;
                 font-family: $poppins-font;
                 font-size: 16px;
-                font-weight: 400;
+                font-weight: $font-Weight-400;
                 line-height: 21px;
                 color: rgba(114, 110, 141, 1);
                 text-decoration: none;
@@ -103,7 +103,7 @@ main {
 
             font-family: $montserrat-font;
             font-size: 36px;
-            font-weight: 400;
+            font-weight: $font-Weight-400;
             line-height: 44px;
             color: $text-font;
         }
@@ -114,7 +114,7 @@ main {
             margin-bottom: 52px;
             font-family: $poppins-font;
             font-size: 24px;
-            font-weight: 300;
+            font-weight: $font-Weight-300;
             line-height: 32px;
             color: $text-font;
         }
@@ -122,7 +122,7 @@ main {
         h3 {
             font-family: $montserrat-font;
             font-size: 16px;
-            font-weight: 400;
+            font-weight: $font-Weight-400;
             line-height: 19px;
             color: $text-font;
         }
@@ -134,7 +134,7 @@ main {
             height: 66px;
             font-family: $poppins-font;
             font-size: 16px;
-            font-weight: 300;
+            font-weight: $font-Weight-300;
             line-height: 21px;
             color: $text-font;
         }
@@ -163,7 +163,7 @@ main {
             th {
                 font-family: $montserrat-font;
                 font-size: 14px;
-                font-weight: 400;
+                font-weight: $font-Weight-400;
                 line-height: 17px;
                 color: $text-font;
                 padding-bottom: 15px;
@@ -172,7 +172,7 @@ main {
             td {
                 font-family: $poppins-font;
                 font-size: 16px;
-                font-weight: 400;
+                font-weight: $font-Weight-400;
                 line-height: 21px;
                 color: $text-font;
             }
@@ -186,7 +186,7 @@ main {
                 height: 46px;
                 font-size: 16px;
                 font-family: $poppins-font;
-                font-weight: 400;
+                font-weight: $font-Weight-400;
                 line-height: 21px;
                 color: rgba(42, 37, 75, 1);
                 text-align: center;
@@ -214,7 +214,7 @@ main {
             button {
                 font-size: 16px;
                 font-family: $poppins-font;
-                font-weight: 300;
+                font-weight: $font-Weight-300;
                 line-height: 24px;
 
                 &:first-child {
@@ -224,7 +224,7 @@ main {
                     background-color: rgba(42, 37, 75, 1);
                     font-size: 16px;
                     font-family: $poppins-font;
-                    font-weight: 300;
+                    font-weight: $font-Weight-300;
                     line-height: 24px;
                     color: rgba(255, 255, 255, 1);
                 }
@@ -249,7 +249,7 @@ article {
         margin-bottom: 25px;
         font-family: $montserrat-font;
         font-size: 32px;
-        font-weight: 400;
+        font-weight: $font-Weight-400;
         line-height: 44px;
         color: $text-font;
     }
@@ -262,7 +262,7 @@ article {
             margin-bottom: 8px;
             font-family: $montserrat-font;
             font-size: 20px;
-            font-weight: 400;
+            font-weight: $font-Weight-400;
             line-height: 28px;
             color: $text-font;
         }
@@ -270,7 +270,7 @@ article {
         span {
             font-family: $poppins-font;
             font-size: 18px;
-            font-weight: 300;
+            font-weight: $font-Weight-300;
             line-height: 27px;
             color: $text-font;
         }
@@ -310,7 +310,7 @@ article {
         background-color: rgba(249, 249, 249, 1);
         font-family: $poppins-font;
         font-size: 16px;
-        font-weight: 300;
+        font-weight: $font-Weight-300;
         line-height: 24px;
         color: $text-font;
     }
@@ -323,7 +323,7 @@ article {
         text-align: center;
         font-family: $montserrat-font;
         font-size: 24px;
-        font-weight: 400;
+        font-weight: $font-Weight-400;
         line-height: 33px;
         color: $text-font;
     }
@@ -397,7 +397,7 @@ form{
             margin-bottom: 21px;
             font-family: $montserrat-font;
             font-size: 32px;
-            font-weight: 400;
+            font-weight: $font-Weight-400;
             line-height: 39px;
             
             color: $text-font;
@@ -407,7 +407,7 @@ form{
             width: 500px;
             font-family: $poppins-font;
             font-size: 16px;
-            font-family: 300;
+            font-family: $font-Weight-300;
             line-height: 24px;
             color: $text-font;
         }
@@ -421,7 +421,7 @@ form{
                     padding-left: 32px;
                     font-size: 16px;
                     font-family: $poppins-font;
-                    font-weight: 300;
+                    font-weight: $font-Weight-300;
                     line-height: 21px;
                     color: $text-font;
                     opacity: 20%;
@@ -434,7 +434,7 @@ form{
                 background-color: $text-font;
                 font-family: $poppins-font;
                 font-size: 16px;
-                font-weight: 300;
+                font-weight: $font-Weight-300;
                 line-height: 34px;
             }
         }
@@ -457,7 +457,7 @@ footer{
                 margin-right: 120px;
                 font-size: 36px;
                 font-family: $montserrat-font;
-                font-weight: 300;
+                font-weight: $font-Weight-300;
                 line-height: 50px;
             }
 
@@ -465,7 +465,7 @@ footer{
                 margin-bottom: 15px;
                 font-family: $poppins-font;
                 font-size: 14px;
-                font-weight: 300;
+                font-weight: $font-Weight-300;
                 line-height: 19px;
             }
         }
@@ -474,7 +474,7 @@ footer{
             margin-bottom: 12px;
             font-family: $montserrat-font;
             font-size: 16px;
-            font-weight: 400;
+            font-weight: $font-Weight-400;
             line-height: 19px;
         }
 
@@ -535,7 +535,7 @@ footer{
             padding-bottom: 20px;
             font-family: $poppins-font;
             font-size: 14px;
-            font-weight: 300;
+            font-weight: $font-Weight-300;
             line-height: 19px;
         }
     }
