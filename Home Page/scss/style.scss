@@ -1,4 +1,4 @@
-@import 'variables.scss';
+@import 'variablde.scss';
 
 *{
     margin: 0;
@@ -8,6 +8,7 @@
 body{
     width: 1440px;
     height: 3368px;
+    margin: 0 auto;
     background-color: $bacground-Color;
 }
 header{
@@ -165,7 +166,7 @@ article{
         width: $one-section-width;
         height: 375px;
     }
-    h4{
+    h2{
         margin-top: 24px;
         margin-bottom: 8px;
         font-size: 20px;
@@ -405,7 +406,7 @@ footer{
     .social-network{
         display: flex;
         justify-content: space-between;
-        h3{
+        h4{
             margin-left: 80px;
             margin-bottom: 25px;
             font-size: 14px;

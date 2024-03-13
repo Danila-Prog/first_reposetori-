@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+  width: 1440px;
+  height: 2970px;
+  margin: 0 auto;
+}
+
+.banners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 11px 0px 11px 0px;
+  color: white;
+  background-color: rgb(42, 37, 75);
+}
+.banners #truck {
+  font-size: 14px;
+  margin-top: 1.5px;
+  margin-right: 8px;
+}
+.banners #cross {
+  position: absolute;
+  left: 1400px;
+  font-size: 12px;
+  margin-top: 1.5px;
+}
+.banners h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgb(42, 37, 75);
+  margin-left: 80px;
+}
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+header nav ul a {
+  margin-right: 44px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(114, 110, 141);
+  text-decoration: none;
+}
+header .icon-head {
+  margin-right: 80px;
+}
+header .icon-head i {
+  font-size: 14px;
+  color: rgb(42, 37, 75);
+  margin-left: 16px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgb(249, 249, 249);
+}
+main img {
+  width: 607px;
+  height: 661px;
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 47px;
+}
+main .main-information {
+  margin-top: 80px;
+  margin-left: 65px;
+}
+main .main-information h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  color: rgb(42, 37, 75);
+}
+main .main-information span {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 52px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  color: rgb(42, 37, 75);
+}
+main .main-information h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgb(42, 37, 75);
+}
+main .main-information p {
+  margin-top: 14px;
+  margin-bottom: 36px;
+  width: 498px;
+  height: 66px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21px;
+  color: rgb(42, 37, 75);
+}
+main .main-information table {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+main .main-information table th,
+main .main-information table td {
+  border-right: 1px solid rgb(235, 232, 244);
+  color: black;
+  padding: 0px 49px 0px 49px;
+}
+main .main-information table th:first-child,
+main .main-information table td:first-child {
+  padding-left: 0px;
+  padding-right: 49px;
+}
+main .main-information table th:last-child,
+main .main-information table td:last-child {
+  padding-left: 49px;
+  border-right: none;
+}
+main .main-information table th {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgb(42, 37, 75);
+  padding-bottom: 15px;
+}
+main .main-information table td {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(42, 37, 75);
+}
+main .main-information .input-plus-and-minus {
+  margin-top: 12px;
+}
+main .main-information .input-plus-and-minus input {
+  width: 122px;
+  height: 46px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(42, 37, 75);
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+main .main-information .input-plus-and-minus button {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 95px;
+  background-color: transparent;
+  color: rgb(235, 232, 244);
+}
+main .main-information .input-plus-and-minus button:first-child {
+  margin-left: 16px;
+}
+main .main-information .button-addCart-and-saveFavourites {
+  margin-top: 48px;
+}
+main .main-information .button-addCart-and-saveFavourites button {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+}
+main .main-information .button-addCart-and-saveFavourites button:first-child {
+  width: 143px;
+  height: 56px;
+  margin-right: 16px;
+  background-color: rgb(42, 37, 75);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+}
+main .main-information .button-addCart-and-saveFavourites button:last-child {
+  width: 178px;
+  height: 56px;
+  background-color: rgb(255, 255, 255);
+}
+
+article {
+  margin-left: 80px;
+}
+article h2 {
+  margin-top: 64px;
+  margin-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  color: rgb(42, 37, 75);
+}
+article .tovar-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+article .tovar-article h4 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(42, 37, 75);
+}
+article .tovar-article span {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  color: rgb(42, 37, 75);
+}
+article .tovar-article .suede-sofa {
+  margin-right: 20px;
+}
+article .tovar-article .suede-sofa img {
+  width: 630px;
+  height: 375px;
+}
+article .tovar-article .dandy-chair {
+  margin-right: 20px;
+}
+article .tovar-article .dandy-chair img {
+  width: 305px;
+  height: 375px;
+}
+article .tovar-article .two-dandy-chair img {
+  width: 305px;
+  height: 375px;
+}
+article button {
+  margin-top: 42px;
+  margin-left: 555px;
+  margin-bottom: 48px;
+  padding: 16px 32px;
+  background-color: rgb(249, 249, 249);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: rgb(42, 37, 75);
+}
+
+.one-section h3 {
+  margin-top: 80px;
+  margin-bottom: 36px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  color: rgb(42, 37, 75);
+}
+.one-section .blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 36px;
+  margin-bottom: 82px;
+}
+.one-section .blocks i {
+  margin: 48px 0px 12px 48px;
+}
+.one-section .blocks h4 {
+  margin: 0px 0px 12px 48px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(42, 37, 75);
+}
+.one-section .blocks p {
+  margin: 0px 25px 48px 48px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(42, 37, 75);
+}
+.one-section .blocks .one-block {
+  width: 305px;
+  height: 244px;
+  margin-left: 80px;
+  background-color: rgb(249, 249, 249);
+}
+.one-section .blocks .two-block {
+  width: 305px;
+  height: 244px;
+  margin-left: 22px;
+  background-color: rgb(249, 249, 249);
+}
+.one-section .blocks .three-block {
+  width: 305px;
+  height: 244px;
+  margin-left: 18px;
+  background-color: rgb(249, 249, 249);
+}
+.one-section .blocks .four-block {
+  width: 305px;
+  height: 244px;
+  margin-left: 20px;
+  background-color: rgb(249, 249, 249);
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+form img {
+  width: 720px;
+  height: 521px;
+}
+form .text-before-the-form {
+  margin-left: 75px;
+}
+form .text-before-the-form h3 {
+  margin-top: 71px;
+  margin-bottom: 21px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  color: rgb(42, 37, 75);
+}
+form .text-before-the-form p {
+  margin-bottom: 216px;
+  width: 500px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-family: 300;
+  line-height: 24px;
+  color: rgb(42, 37, 75);
+}
+form .text-before-the-form .sign-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+form .text-before-the-form .sign-form input {
+  width: 354px;
+  height: 56px;
+  background-color: rgb(249, 249, 249);
+}
+form .text-before-the-form .sign-form input::-webkit-input-placeholder {
+  padding-left: 32px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 21px;
+  color: rgb(42, 37, 75);
+  opacity: 20%;
+}
+form .text-before-the-form .sign-form input::-moz-placeholder {
+  padding-left: 32px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 21px;
+  color: rgb(42, 37, 75);
+  opacity: 20%;
+}
+form .text-before-the-form .sign-form input:-ms-input-placeholder {
+  padding-left: 32px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 21px;
+  color: rgb(42, 37, 75);
+  opacity: 20%;
+}
+form .text-before-the-form .sign-form input::-ms-input-placeholder {
+  padding-left: 32px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 21px;
+  color: rgb(42, 37, 75);
+  opacity: 20%;
+}
+form .text-before-the-form .sign-form input::placeholder {
+  padding-left: 32px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 21px;
+  color: rgb(42, 37, 75);
+  opacity: 20%;
+}
+form .text-before-the-form .sign-form button {
+  width: 118px;
+  height: 56px;
+  color: white;
+  background-color: rgb(42, 37, 75);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 34px;
+}
+
+footer {
+  background-color: rgb(42, 37, 75);
+  color: white;
+}
+footer .entire-navigation-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 53px;
+}
+footer .entire-navigation-bar .addres {
+  margin-left: 80px;
+}
+footer .entire-navigation-bar .addres h1 {
+  margin-bottom: 16px;
+  margin-right: 120px;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 50px;
+}
+footer .entire-navigation-bar .addres h5 {
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}
+footer .entire-navigation-bar h3 {
+  margin-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+footer .entire-navigation-bar li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+footer .entire-navigation-bar a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 19px;
+  color: white;
+}
+footer .entire-navigation-bar .social-links nav {
+  margin-top: 22px;
+}
+footer .entire-navigation-bar .social-links nav li {
+  display: inline;
+}
+footer .entire-navigation-bar .social-links nav li:last-child {
+  margin-right: 170px;
+}
+footer .entire-navigation-bar .social-links nav li a {
+  margin-right: 24px;
+  font-size: 24px;
+}
+footer .entire-navigation-bar .menu {
+  margin-right: 109px;
+}
+footer .entire-navigation-bar .categories {
+  margin-right: 135px;
+  margin-bottom: 36px;
+}
+footer .bottom-text-and-line span {
+  display: block;
+  width: 1277px;
+  border-bottom: 1px solid rgb(78, 77, 147);
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+footer .bottom-text-and-line h4 {
+  margin-left: 80px;
+  padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}

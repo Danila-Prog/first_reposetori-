@@ -9,6 +9,7 @@
 body {
   width: 1440px;
   height: 3368px;
+  margin: 0 auto;
   background-color: white;
 }
 
@@ -168,7 +169,7 @@ article img {
   width: 305px;
   height: 375px;
 }
-article h4 {
+article h2 {
   margin-top: 24px;
   margin-bottom: 8px;
   font-size: 20px;
@@ -473,7 +474,7 @@ footer .social-network {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-footer .social-network h3 {
+footer .social-network h4 {
   margin-left: 80px;
   margin-bottom: 25px;
   font-size: 14px;
