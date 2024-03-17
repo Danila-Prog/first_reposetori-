@@ -6,537 +6,549 @@
     border: none;
 }
 
-body {
-    width: 1440px;
-    height: 2970px;
-    margin: 0 auto;
-}
-
-.banners {
-    display: flex;
-    justify-content: center;
-    padding: 11px 0px 11px 0px;
-    color: white;
-    background-color: rgba(42, 37, 75, 1);
-
-    #truck {
-        font-size: 14px;
-        margin-top: 1.5px;
-        margin-right: 8px;
+@media only screen and (max-width : 1440px) {
+    body {
+        margin: 0 auto;
     }
 
-    #cross {
-        position: absolute;
-        left: 1400px;
-        font-size: 12px;
-        margin-top: 1.5px;
+    .banners {
+        display: flex;
+        justify-content: center;
+        padding: 11px 0px 11px 0px;
+        color: white;
+        background-color: rgba(42, 37, 75, 1);
+
+        #truck {
+            font-size: 14px;
+            margin-top: 1.5px;
+            margin-right: 8px;
+        }
+
+        #cross {
+            position: absolute;
+            left: 1400px;
+            font-size: 12px;
+            margin-top: 1.5px;
+        }
+
+        h2 {
+            font-family: $poppins-font;
+            font-size: 14px;
+            font-weight: $font-Weight-300;
+            line-height: 19px;
+        }
     }
 
-    h2 {
-        font-family: $poppins-font;
-        font-size: 14px;
-        font-weight: $font-Weight-300;
-        line-height: 19px;
-    }
-}
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-bottom: 25px;
 
-header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-    margin-bottom: 25px;
+        h1 {
+            font-family: $montserrat-font;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 29px;
+            color: $text-font;
+            margin-left: 80px;
+        }
 
-    h1 {
-        font-family: $montserrat-font;
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 29px;
-        color: $text-font;
-        margin-left: 80px;
-    }
+        nav {
+            ul {
+                display: flex;
+                list-style: none;
 
-    nav {
-        ul {
-            display: flex;
-            list-style: none;
+                a {
+                    margin-right: 44px;
+                    font-family: $poppins-font;
+                    font-size: 16px;
+                    font-weight: $font-Weight-400;
+                    line-height: 21px;
+                    color: rgba(114, 110, 141, 1);
+                    text-decoration: none;
+                }
+            }
+        }
 
-            a {
-                margin-right: 44px;
-                font-family: $poppins-font;
-                font-size: 16px;
-                font-weight: $font-Weight-400;
-                line-height: 21px;
-                color: rgba(114, 110, 141, 1);
-                text-decoration: none;
+        .icon-head {
+            margin-right: 80px;
+
+            i {
+                font-size: 14px;
+                color: $text-font;
+                margin-left: 16px;
             }
         }
     }
 
-    .icon-head {
-        margin-right: 80px;
+    main {
+        display: flex;
+        background-color: rgba(249, 249, 249, 1);
 
-        i {
-            font-size: 14px;
-            color: $text-font;
-            margin-left: 16px;
+        img {
+            width: 607px;
+            height: 661px;
+            margin-left: 80px;
+            margin-top: 50px;
+            margin-bottom: 47px;
+        }
+
+        .main-information {
+            margin-top: 80px;
+            margin-left: 65px;
+
+            h2 {
+
+                font-family: $montserrat-font;
+                font-size: 36px;
+                font-weight: $font-Weight-400;
+                line-height: 44px;
+                color: $text-font;
+            }
+
+            span {
+                display: block;
+                margin-top: 16px;
+                margin-bottom: 52px;
+                font-family: $poppins-font;
+                font-size: 24px;
+                font-weight: $font-Weight-300;
+                line-height: 32px;
+                color: $text-font;
+            }
+
+            h3 {
+                font-family: $montserrat-font;
+                font-size: 16px;
+                font-weight: $font-Weight-400;
+                line-height: 19px;
+                color: $text-font;
+            }
+
+            p {
+                margin-top: 14px;
+                margin-bottom: 36px;
+                width: 498px;
+                height: 66px;
+                font-family: $poppins-font;
+                font-size: 16px;
+                font-weight: $font-Weight-300;
+                line-height: 21px;
+                color: $text-font;
+            }
+
+            table {
+                margin-top: 24px;
+                margin-bottom: 40px;
+
+                th,
+                td {
+                    border-right: 1px solid rgba(235, 232, 244, 1);
+                    color: black;
+                    padding: 0px 49px 0px 49px;
+
+                    &:first-child {
+                        padding-left: 0px;
+                        padding-right: 49px;
+                    }
+
+                    &:last-child {
+                        padding-left: 49px;
+                        border-right: none;
+                    }
+                }
+
+                th {
+                    font-family: $montserrat-font;
+                    font-size: 14px;
+                    font-weight: $font-Weight-400;
+                    line-height: 17px;
+                    color: $text-font;
+                    padding-bottom: 15px;
+                }
+
+                td {
+                    font-family: $poppins-font;
+                    font-size: 16px;
+                    font-weight: $font-Weight-400;
+                    line-height: 21px;
+                    color: $text-font;
+                }
+            }
+
+            .input-plus-and-minus {
+                margin-top: 12px;
+
+                input {
+                    width: 122px;
+                    height: 46px;
+                    font-size: 16px;
+                    font-family: $poppins-font;
+                    font-weight: $font-Weight-400;
+                    line-height: 21px;
+                    color: rgba(42, 37, 75, 1);
+                    text-align: center;
+                    background-color: rgba(255, 255, 255, 1);
+                }
+
+                button {
+                    position: absolute;
+                    margin-top: 12px;
+                    margin-left: 95px;
+                    background-color: transparent;
+                    color: rgba(235, 232, 244, 1);
+
+                    &:first-child {
+                        margin-left: 16px;
+                    }
+
+
+                }
+            }
+
+            .button-addCart-and-saveFavourites {
+                margin-top: 48px;
+
+                button {
+                    font-size: 16px;
+                    font-family: $poppins-font;
+                    font-weight: $font-Weight-300;
+                    line-height: 24px;
+
+                    &:first-child {
+                        width: 143px;
+                        height: 56px;
+                        margin-right: 16px;
+                        background-color: rgba(42, 37, 75, 1);
+                        font-size: 16px;
+                        font-family: $poppins-font;
+                        font-weight: $font-Weight-300;
+                        line-height: 24px;
+                        color: rgba(255, 255, 255, 1);
+                    }
+
+                    &:last-child {
+                        width: 178px;
+                        height: 56px;
+                        background-color: rgba(255, 255, 255, 1);
+
+                    }
+                }
+
+            }
         }
     }
-}
 
-main {
-    display: flex;
-    background-color: rgba(249, 249, 249, 1);
-
-    img {
-        width: 607px;
-        height: 661px;
+    article {
         margin-left: 80px;
-        margin-top: 50px;
-        margin-bottom: 47px;
-    }
-
-    .main-information {
-        margin-top: 80px;
-        margin-left: 65px;
 
         h2 {
-
+            margin-top: 64px;
+            margin-bottom: 25px;
             font-family: $montserrat-font;
-            font-size: 36px;
+            font-size: 32px;
             font-weight: $font-Weight-400;
             line-height: 44px;
             color: $text-font;
         }
 
-        span {
-            display: block;
-            margin-top: 16px;
-            margin-bottom: 52px;
-            font-family: $poppins-font;
-            font-size: 24px;
-            font-weight: $font-Weight-300;
-            line-height: 32px;
-            color: $text-font;
-        }
-
-        h3 {
-            font-family: $montserrat-font;
-            font-size: 16px;
-            font-weight: $font-Weight-400;
-            line-height: 19px;
-            color: $text-font;
-        }
-
-        p {
-            margin-top: 14px;
-            margin-bottom: 36px;
-            width: 498px;
-            height: 66px;
-            font-family: $poppins-font;
-            font-size: 16px;
-            font-weight: $font-Weight-300;
-            line-height: 21px;
-            color: $text-font;
-        }
-
-        table {
-            margin-top: 24px;
-            margin-bottom: 40px;
-
-            th,
-            td {
-                border-right: 1px solid rgba(235, 232, 244, 1);
-                color: black;
-                padding: 0px 49px 0px 49px;
-
-                &:first-child {
-                    padding-left: 0px;
-                    padding-right: 49px;
-                }
-
-                &:last-child {
-                    padding-left: 49px;
-                    border-right: none;
-                }
-            }
-
-            th {
-                font-family: $montserrat-font;
-                font-size: 14px;
-                font-weight: $font-Weight-400;
-                line-height: 17px;
-                color: $text-font;
-                padding-bottom: 15px;
-            }
-
-            td {
-                font-family: $poppins-font;
-                font-size: 16px;
-                font-weight: $font-Weight-400;
-                line-height: 21px;
-                color: $text-font;
-            }
-        }
-
-        .input-plus-and-minus {
-            margin-top: 12px;
-
-            input {
-                width: 122px;
-                height: 46px;
-                font-size: 16px;
-                font-family: $poppins-font;
-                font-weight: $font-Weight-400;
-                line-height: 21px;
-                color: rgba(42, 37, 75, 1);
-                text-align: center;
-                background-color: rgba(255, 255, 255, 1);
-            }
-
-            button {
-                position: absolute;
-                margin-top: 12px;
-                margin-left: 95px;
-                background-color: transparent;
-                color: rgba(235, 232, 244, 1);
-
-                &:first-child {
-                    margin-left: 16px;
-                }
-
-
-            }
-        }
-
-        .button-addCart-and-saveFavourites {
-            margin-top: 48px;
-
-            button {
-                font-size: 16px;
-                font-family: $poppins-font;
-                font-weight: $font-Weight-300;
-                line-height: 24px;
-
-                &:first-child {
-                    width: 143px;
-                    height: 56px;
-                    margin-right: 16px;
-                    background-color: rgba(42, 37, 75, 1);
-                    font-size: 16px;
-                    font-family: $poppins-font;
-                    font-weight: $font-Weight-300;
-                    line-height: 24px;
-                    color: rgba(255, 255, 255, 1);
-                }
-
-                &:last-child {
-                    width: 178px;
-                    height: 56px;
-                    background-color: rgba(255, 255, 255, 1);
-
-                }
-            }
-
-        }
-    }
-}
-
-article {
-    margin-left: 80px;
-
-    h2 {
-        margin-top: 64px;
-        margin-bottom: 25px;
-        font-family: $montserrat-font;
-        font-size: 32px;
-        font-weight: $font-Weight-400;
-        line-height: 44px;
-        color: $text-font;
-    }
-
-    .tovar-article {
-        display: flex;
-
-        h4 {
-            margin-top: 24px;
-            margin-bottom: 8px;
-            font-family: $montserrat-font;
-            font-size: 20px;
-            font-weight: $font-Weight-400;
-            line-height: 28px;
-            color: $text-font;
-        }
-
-        span {
-            font-family: $poppins-font;
-            font-size: 18px;
-            font-weight: $font-Weight-300;
-            line-height: 27px;
-            color: $text-font;
-        }
-
-        .suede-sofa {
-            margin-right: 20px;
-
-            img {
-                width: 630px;
-                height: 375px;
-            }
-        }
-
-        .dandy-chair {
-            margin-right: 20px;
-
-            img {
-                width: 305px;
-                height: 375px;
-            }
-        }
-
-        .two-dandy-chair {
-            img {
-                width: 305px;
-                height: 375px;
-            }
-        }
-
-    }
-
-    button {
-        margin-top: 42px;
-        margin-left: 555px;
-        margin-bottom: 48px;
-        padding: 16px 32px;
-        background-color: rgba(249, 249, 249, 1);
-        font-family: $poppins-font;
-        font-size: 16px;
-        font-weight: $font-Weight-300;
-        line-height: 24px;
-        color: $text-font;
-    }
-}
-
-.one-section {
-    h3 {
-        margin-top: 80px;
-        margin-bottom: 36px;
-        text-align: center;
-        font-family: $montserrat-font;
-        font-size: 24px;
-        font-weight: $font-Weight-400;
-        line-height: 33px;
-        color: $text-font;
-    }
-
-    .blocks {
-        display: flex;
-        margin-top: 36px;
-        margin-bottom: 82px;
-        i {
-            margin: 48px 0px 12px 48px;
-        }
-
-        h4 {
-            margin: 0px 0px 12px 48px;
-            font-size: 20px;
-            font-family: $montserrat-font;
-            font-weight: $font-Weight-400;
-            line-height: 28px;
-            color: $text-font;
-        }
-
-        p {
-            margin: 0px 25px 48px 48px;
-            font-size: 16px;
-            font-family: $poppins-font;
-            font-weight: $font-Weight-400;
-            line-height: 24px;
-            color: $text-font;
-        }
-
-        .one-block {
-            width: $one-section-width;
-            height: $one-section-height;
-            margin-left: 80px;
-            background-color: $grey-background;
-
-        }
-
-        .two-block {
-            width: $one-section-width;
-            height: $one-section-height;
-            margin-left: 22px;
-            background-color: $grey-background;
-        }
-
-        .three-block {
-            width: $one-section-width;
-            height: $one-section-height;
-            margin-left: 18px;
-            background-color: $grey-background;
-        }
-
-        .four-block {
-            width: $one-section-width;
-            height: $one-section-height;
-            margin-left: 20px;
-            background-color: $grey-background;
-        }
-    }
-}
-form{
-    display: flex;
-    img{
-        width: 720px;
-        height: 521px;
-    }
-    .text-before-the-form{
-        margin-left: 75px;
-        h3{
-            margin-top: 71px;
-            margin-bottom: 21px;
-            font-family: $montserrat-font;
-            font-size: 32px;
-            font-weight: $font-Weight-400;
-            line-height: 39px;
-            
-            color: $text-font;
-        }
-        p{
-            margin-bottom: 216px;
-            width: 500px;
-            font-family: $poppins-font;
-            font-size: 16px;
-            font-family: $font-Weight-300;
-            line-height: 24px;
-            color: $text-font;
-        }
-        .sign-form{
+        .tovar-article {
             display: flex;
-            input{
-                width: 354px;
-                height: 56px;
-                background-color: $grey-background;
-                &::placeholder{
-                    padding-left: 32px;
-                    font-size: 16px;
-                    font-family: $poppins-font;
-                    font-weight: $font-Weight-300;
-                    line-height: 21px;
-                    color: $text-font;
-                    opacity: 20%;
+
+            h4 {
+                margin-top: 24px;
+                margin-bottom: 8px;
+                font-family: $montserrat-font;
+                font-size: 20px;
+                font-weight: $font-Weight-400;
+                line-height: 28px;
+                color: $text-font;
+            }
+
+            span {
+                font-family: $poppins-font;
+                font-size: 18px;
+                font-weight: $font-Weight-300;
+                line-height: 27px;
+                color: $text-font;
+            }
+
+            .suede-sofa {
+                margin-right: 20px;
+
+                img {
+                    width: 630px;
+                    height: 375px;
                 }
             }
-            button{
-                width: 118px;
-                height: 56px;
-                color: white;
-                background-color: $text-font;
-                font-family: $poppins-font;
+
+            .dandy-chair {
+                margin-right: 20px;
+
+                img {
+                    width: 305px;
+                    height: 375px;
+                }
+            }
+
+            .two-dandy-chair {
+                img {
+                    width: 305px;
+                    height: 375px;
+                }
+            }
+
+        }
+
+        button {
+            margin-top: 42px;
+            margin-left: 555px;
+            margin-bottom: 48px;
+            padding: 16px 32px;
+            background-color: rgba(249, 249, 249, 1);
+            font-family: $poppins-font;
+            font-size: 16px;
+            font-weight: $font-Weight-300;
+            line-height: 24px;
+            color: $text-font;
+        }
+    }
+
+    .one-section {
+        h3 {
+            margin-top: 80px;
+            margin-bottom: 36px;
+            text-align: center;
+            font-family: $montserrat-font;
+            font-size: 24px;
+            font-weight: $font-Weight-400;
+            line-height: 33px;
+            color: $text-font;
+        }
+
+        .blocks {
+            display: flex;
+            margin-top: 36px;
+            margin-bottom: 82px;
+
+            i {
+                margin: 48px 0px 12px 48px;
+            }
+
+            h4 {
+                margin: 0px 0px 12px 48px;
+                font-size: 20px;
+                font-family: $montserrat-font;
+                font-weight: $font-Weight-400;
+                line-height: 28px;
+                color: $text-font;
+            }
+
+            p {
+                margin: 0px 25px 48px 48px;
                 font-size: 16px;
-                font-weight: $font-Weight-300;
-                line-height: 34px;
+                font-family: $poppins-font;
+                font-weight: $font-Weight-400;
+                line-height: 24px;
+                color: $text-font;
+            }
+
+            .one-block {
+                width: $one-section-width;
+                height: $one-section-height;
+                margin-left: 80px;
+                background-color: $grey-background;
+
+            }
+
+            .two-block {
+                width: $one-section-width;
+                height: $one-section-height;
+                margin-left: 22px;
+                background-color: $grey-background;
+            }
+
+            .three-block {
+                width: $one-section-width;
+                height: $one-section-height;
+                margin-left: 18px;
+                background-color: $grey-background;
+            }
+
+            .four-block {
+                width: $one-section-width;
+                height: $one-section-height;
+                margin-left: 20px;
+                background-color: $grey-background;
             }
         }
-        
     }
-}
-footer{
-    background-color: rgba(42, 37, 75, 1);
-    color: white;
 
-    .entire-navigation-bar {
+    form {
         display: flex;
-        padding-top: 53px;
 
-        .addres {
-            margin-left: 80px;
+        img {
+            width: 720px;
+            height: 521px;
+        }
 
-            h1 {
-                margin-bottom: 16px;
-                margin-right: 120px;
-                font-size: 36px;
+        .text-before-the-form {
+            margin-left: 75px;
+
+            h3 {
+                margin-top: 71px;
+                margin-bottom: 21px;
                 font-family: $montserrat-font;
-                font-weight: $font-Weight-300;
-                line-height: 50px;
+                font-size: 32px;
+                font-weight: $font-Weight-400;
+                line-height: 39px;
+
+                color: $text-font;
             }
 
-            h5 {
-                margin-bottom: 15px;
+            p {
+                margin-bottom: 216px;
+                width: 500px;
+                font-family: $poppins-font;
+                font-size: 16px;
+                font-family: $font-Weight-300;
+                line-height: 24px;
+                color: $text-font;
+            }
+
+            .sign-form {
+                display: flex;
+
+                input {
+                    width: 354px;
+                    height: 56px;
+                    background-color: $grey-background;
+
+                    &::placeholder {
+                        padding-left: 32px;
+                        font-size: 16px;
+                        font-family: $poppins-font;
+                        font-weight: $font-Weight-300;
+                        line-height: 21px;
+                        color: $text-font;
+                        opacity: 20%;
+                    }
+                }
+
+                button {
+                    width: 118px;
+                    height: 56px;
+                    color: white;
+                    background-color: $text-font;
+                    font-family: $poppins-font;
+                    font-size: 16px;
+                    font-weight: $font-Weight-300;
+                    line-height: 34px;
+                }
+            }
+
+        }
+    }
+
+    footer {
+        background-color: rgba(42, 37, 75, 1);
+        color: white;
+
+        .entire-navigation-bar {
+            display: flex;
+            padding-top: 53px;
+
+            .addres {
+                margin-left: 80px;
+
+                h1 {
+                    margin-bottom: 16px;
+                    margin-right: 120px;
+                    font-size: 36px;
+                    font-family: $montserrat-font;
+                    font-weight: $font-Weight-300;
+                    line-height: 50px;
+                }
+
+                h5 {
+                    margin-bottom: 15px;
+                    font-family: $poppins-font;
+                    font-size: 14px;
+                    font-weight: $font-Weight-300;
+                    line-height: 19px;
+                }
+            }
+
+            h3 {
+                margin-bottom: 12px;
+                font-family: $montserrat-font;
+                font-size: 16px;
+                font-weight: $font-Weight-400;
+                line-height: 19px;
+            }
+
+            li {
+                list-style: none;
+                margin-bottom: 12px;
+            }
+
+            a {
+                text-decoration: none;
+                font-family: $poppins-font;
+                font-size: 14px;
+                font-weight: 200;
+                line-height: 19px;
+
+                color: white;
+            }
+
+            .social-links {
+                nav {
+                    margin-top: 22px;
+
+                    li {
+                        display: inline;
+
+                        &:last-child {
+                            margin-right: 170px;
+                        }
+
+                        a {
+                            margin-right: 24px;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+
+            .menu {
+                margin-right: 109px;
+            }
+
+            .categories {
+                margin-right: 135px;
+                margin-bottom: 36px;
+            }
+        }
+
+        .bottom-text-and-line {
+            span {
+                display: block;
+                width: 1277px;
+                border-bottom: 1px solid rgba(78, 77, 147, 1);
+                margin: 0 auto;
+                margin-bottom: 16px;
+            }
+
+            h4 {
+                margin-left: 80px;
+                padding-bottom: 20px;
                 font-family: $poppins-font;
                 font-size: 14px;
                 font-weight: $font-Weight-300;
                 line-height: 19px;
             }
-        }
-
-        h3 {
-            margin-bottom: 12px;
-            font-family: $montserrat-font;
-            font-size: 16px;
-            font-weight: $font-Weight-400;
-            line-height: 19px;
-        }
-
-        li {
-            list-style: none;
-            margin-bottom: 12px;
-        }
-
-        a {
-            text-decoration: none;
-            font-family: $poppins-font;
-            font-size: 14px;
-            font-weight: 200;
-            line-height: 19px;
-
-            color: white;
-        }   
-
-        .social-links {
-            nav {
-                margin-top: 22px;
-
-                li {
-                display: inline;
-
-                &:last-child {
-                    margin-right: 170px;
-                }
-
-                a {
-                    margin-right: 24px;
-                    font-size: 24px;
-                }
-            }
-        }
-    }
-
-    .menu {
-        margin-right: 109px;
-    }
-
-    .categories {
-        margin-right: 135px;
-        margin-bottom: 36px;
-    }
-}
-
-    .bottom-text-and-line {
-        span{
-            display: block;
-            width: 1277px;
-            border-bottom: 1px solid rgba(78, 77, 147, 1);
-            margin: 0 auto;
-            margin-bottom: 16px;
-        }
-        h4{
-            margin-left: 80px;
-            padding-bottom: 20px;
-            font-family: $poppins-font;
-            font-size: 14px;
-            font-weight: $font-Weight-300;
-            line-height: 19px;
         }
     }
 }

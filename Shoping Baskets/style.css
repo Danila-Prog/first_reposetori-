@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  body {
+    margin: 0 auto;
+    background-color: rgb(249, 249, 249);
+  }
+  header {
+    background-color: white;
+  }
+  .main-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main-header .search {
+    margin: 28px;
+    font-size: 14px;
+  }
+  .main-header h1 {
+    margin-top: 20px;
+    margin-left: 643px;
+    color: rgb(34, 32, 46);
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .main-header .right-icons {
+    margin-top: 26px;
+    font-size: 16px;
+  }
+  .main-header .right-icons i:first-child {
+    margin-left: 580px;
+  }
+  .main-header .right-icons i:last-child {
+    margin-left: 12px;
+  }
+  .line-header {
+    display: block;
+    width: 1368px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  nav {
+    margin-left: 382px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav li a {
+    margin-right: 44px;
+    margin-bottom: 20px;
+    color: rgb(114, 110, 141);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  main {
+    margin-left: 188px;
+  }
+  main .line-span {
+    display: block;
+    margin-bottom: 28px;
+    width: 1064px;
+    border: 1px solid rgb(235, 232, 244);
+  }
+  main h1 {
+    margin-top: 64px;
+    margin-bottom: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color: rgb(42, 37, 75);
+  }
+  main .top-product .text-top-product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 12px;
+  }
+  main .top-product .text-top-product h6 {
+    margin-right: 317px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgb(42, 37, 75);
+  }
+  main .top-product .text-top-product h6:first-child {
+    margin-right: 595px;
+  }
+  main .mini-product-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  main .mini-product-card img {
+    width: 109px;
+    height: 134px;
+  }
+  main .mini-product-card .text-product-card {
+    width: 179px;
+    margin-left: 21px;
+    margin-top: 12px;
+    margin-right: 341px;
+  }
+  main .mini-product-card .text-product-card h4 {
+    margin-bottom: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(42, 37, 75);
+  }
+  main .mini-product-card .text-product-card p {
+    margin-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(42, 37, 75);
+  }
+  main .mini-product-card .text-product-card span {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(42, 37, 75);
+  }
+  main .mini-product-card .input-plus-and-minus {
+    margin-top: 4px;
+    margin-right: 252px;
+  }
+  main .mini-product-card .input-plus-and-minus input {
+    width: 122px;
+    height: 46px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(42, 37, 75);
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+  }
+  main .mini-product-card .input-plus-and-minus button {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 95px;
+    background-color: transparent;
+    color: rgb(235, 232, 244);
+  }
+  main .mini-product-card .input-plus-and-minus button:first-child {
+    margin-left: 16px;
+  }
+  main .mini-product-card span {
+    margin-top: 3px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(42, 37, 75);
+  }
+  .total-button {
+    margin-left: 782px;
+  }
+  .total-button .subtotal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 132px;
+    margin-bottom: 12px;
+  }
+  .total-button .subtotal h4 {
+    margin-right: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(78, 77, 147);
+  }
+  .total-button .subtotal h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgb(42, 37, 75);
+  }
+  .total-button p {
+    margin-bottom: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.2px;
+    font-weight: 300;
+    line-height: 21px;
+    color: rgb(78, 77, 147);
+  }
+  .total-button button {
+    padding: 16px 32px;
+    margin-left: 110px;
+    margin-bottom: 48px;
+    background-color: rgb(42, 37, 75);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+  }
+  footer {
+    background-color: rgb(42, 37, 75);
+  }
+  footer .useful-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 58px;
+  }
+  footer .useful-links h3 {
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  footer .useful-links ul li {
+    list-style: none;
+  }
+  footer .useful-links a {
+    margin-bottom: 12px;
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: 19px;
+    text-decoration: none;
+  }
+  footer .useful-links .menu {
+    margin-left: 82px;
+    margin-right: 109px;
+  }
+  footer .useful-links .categories {
+    margin-right: 133px;
+    margin-bottom: 48px;
+  }
+  footer .useful-links .our-company {
+    margin-right: 109px;
+  }
+  footer .useful-newsletter h3 {
+    margin-bottom: 16px;
+  }
+  footer .useful-newsletter .input-sign {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .useful-newsletter .input-sign input {
+    width: 459px;
+    height: 56px;
+    padding-left: 32px;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  footer .useful-newsletter .input-sign input::-webkit-input-placeholder {
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: 21px;
+  }
+  footer .useful-newsletter .input-sign input::-moz-placeholder {
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: 21px;
+  }
+  footer .useful-newsletter .input-sign input:-ms-input-placeholder {
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: 21px;
+  }
+  footer .useful-newsletter .input-sign input::-ms-input-placeholder {
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: 21px;
+  }
+  footer .useful-newsletter .input-sign input::placeholder {
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: 21px;
+  }
+  footer .useful-newsletter .input-sign button {
+    width: 118px;
+    height: 56px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(42, 37, 75);
+  }
+  footer span {
+    display: block;
+    width: 1277px;
+    border-bottom: 1px solid rgb(78, 77, 147);
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  footer .social-network {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer .social-network h4 {
+    margin-left: 80px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: 19px;
+    color: white;
+  }
+  footer .social-network li {
+    display: inline;
+    list-style: none;
+    margin-left: 24px;
+  }
+  footer .social-network li:last-child {
+    margin-right: 83px;
+  }
+  footer .social-network li a {
+    color: white;
+  }
+}
